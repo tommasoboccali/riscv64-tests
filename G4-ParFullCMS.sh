@@ -1,7 +1,7 @@
 G4Prefix=/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/geant4/
 #G4Prefix=/scratch/G4/INSTALL
 
-${G4Prefix}/bin/geant4.sh
+source ${G4Prefix}/bin/geant4.sh
 
 exe=/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/parfullcms//ParFullCMS
 prefix=G4_ParFullCMS

@@ -1,6 +1,8 @@
 G4Prefix=/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/geant4
 #G4Prefix=/scratch/G4/INSTALL
-${G4Prefix}/bin/geant4.sh
+#
+source ${G4Prefix}/bin/geant4.sh
+
 exe=${G4Prefix}/share/Geant4/examples/extended/analysis/AnaEx01/AnaEx01
 prefix=G4_Ana01
 
