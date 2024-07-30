@@ -1,5 +1,7 @@
 All the .sh files can be executed for a given test. Please edit the paths before!
 
+(the best solutionis to use them directly from CVMFS)
+
 G4: all executed with 1 2 4 8 16 32 64 threads
 
   G4-DMparticle.sh: the exetended / darkmatter test of G4
