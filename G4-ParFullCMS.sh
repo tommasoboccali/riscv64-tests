@@ -11,7 +11,7 @@ config=parfullcms.mac
 
 echo Starting at `date`
 
-for th in 1 2 4 8 16 32 64
+for th in  1 2 4 8 16 32 64
 do
 	export G4FORCENUMBEROFTHREADS=${th}
 	nevents=$(($events_per_thread * $th))
