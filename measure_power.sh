@@ -2,20 +2,18 @@
 #
 # Parameters: EXE delay 'comment' 
 #
-measure_host=192.168.1.1
+measure_host=192.168.139.121
 
-command="wget -qO- http://${measure_host}/status | jq '.meters[0].power'"
+command="wget -qO- http://${measure_host}/rpc/Shelly.GetStatus|sed 's#switch:0#switch0#g'|jq '.switch0.apower'"
 
 delay=$1
 comment=$2
 
-command='echo pippo'
-#echo $command
-#
 echo COMMENT $comment START
 
 while [ True ]
 do
-	echo `date` `date "+%s"` `$command` W
+        pw=$(eval $command)
+	echo `date` `date "+%s"` $pw  W
 	sleep $delay
 done	
