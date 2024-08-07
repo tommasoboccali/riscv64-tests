@@ -18,12 +18,15 @@ echo COMMENT $comment START
 while [ True ]
 do
         pw=$(eval $command)
+	prevcpu=`head -n1 /proc/stat`
         en=$(eval $command2)
         curtime=`date +%s`
         curprecise=`perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)'`
         runtimeprecise=$((curprecise-startprecise))
         runtime=$((curtime-starttime))
+	cpuusage=`printf "$prev \n$new"|awk '/^cpu /{u=$2-u;s=$4-s;i=$5-i;w=$6-w}END{print int(0.5+100*(u+s+w)/(u+s+i+w))}'`
         j=$(awk "BEGIN {print $en*3600; exit}"|sed "s#,#.#g")
-	echo `date` `date "+%s"` $runtimeprecise ms $pw  W $en Wh $j J
+	echo `date` `date "+%s"` $runtimeprecise ms $pw  W $en Wh $j J $cpuupsage cpu%
 	sleep $delay
+	newcpu=`head -n1 /proc/stat`
 done	
