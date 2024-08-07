@@ -21,6 +21,6 @@ do
 	echo Measuring power with PID $mpid
         cat $config | sed "s#NEVENTS#$nevents#g" > macro.run
 	time ${exe} macro.run  >& ${prefix}_${th}.log
-	
+	kill $mpid	
 done
 
