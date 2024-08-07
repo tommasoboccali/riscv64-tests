@@ -6,7 +6,7 @@ source ${G4Prefix}/bin/geant4.sh
 exe=${G4Prefix}/share/Geant4/examples/extended/analysis/AnaEx01/AnaEx01
 prefix=G4_Ana01
 
-events_per_thread=4000
+events_per_thread=20000
 config=run_ana01.mac
 
 echo Starting at `date`
