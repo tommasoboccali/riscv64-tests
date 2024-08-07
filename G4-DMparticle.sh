@@ -16,6 +16,9 @@ do
 	export G4FORCENUMBEROFTHREADS=${th}
 	nevents=$(($events_per_thread * $th))
         echo executing DMPARTICLE at ${th} threads and $nevents events at `date`  `date '+%s'`
+        ./measure_power.sh 1 "DMParticle_${th}" > measure_DMParticle_${th}.log &
+	mpid=$!
+	echo Measuring power with PID $mpid
         cat $config | sed "s#NEVENTS#$nevents#g" > macro.run
 	time ${exe} macro.run  >& ${prefix}_${th}.log
 	
