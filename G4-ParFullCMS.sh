@@ -11,12 +11,16 @@ config=parfullcms.mac
 
 echo Starting at `date`
 
-for th in  1 2 4 8 16 32 64
+for th in   32 64
 do
 	export G4FORCENUMBEROFTHREADS=${th}
 	nevents=$(($events_per_thread * $th))
 	echo executing ParFullCMS at ${th} threads and $nevents events at `date`  `date '+%s'`
+	./measure_power.sh 1 "ParFullCMS_${th}" > measure_ParFullCMS_${th}.log &
+	mpid=$!
+	echo Measuring power with PID $mpid
 	cat $config | sed "s#NEVENTS#$nevents#g" > macro.run 
 	time ${exe} macro.run >& ${prefix}_${th}.log
+	kill $mpid
 done
 

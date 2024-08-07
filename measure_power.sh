@@ -2,7 +2,7 @@
 #
 # Parameters: EXE delay 'comment' 
 #
-measure_host=192.168.139.121
+measure_host=172.16.40.250
 
 command="wget -qO- http://${measure_host}/rpc/Shelly.GetStatus|sed 's#switch:0#switch0#g'|jq '.switch0.apower'"
 command2="wget -qO- http://${measure_host}/rpc/Shelly.GetStatus|sed 's#switch:0#switch0#g'|jq '.switch0.aenergy.total'"
