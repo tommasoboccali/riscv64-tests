@@ -6,7 +6,7 @@ source ${G4Prefix}/bin/geant4.sh
 exe=${G4Prefix}/share/Geant4/examples/extended/exoticphysics/dmparticle/dmparticle
 prefix=G4_DMPARTICLE
 
-events_per_thread=5000
+events_per_thread=25000
 config=dmparticle_test.in
 
 echo Starting at `date`
