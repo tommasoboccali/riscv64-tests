@@ -21,6 +21,6 @@ do
         curtime=`date +%s`
         runtime=$((curtime-starttime))
         j=$(awk "BEGIN {print $en*3600; exit}"|sed "s#,#.#g")
-	echo `date` `date "+%s"` $runtime $pw  W $en Wh $j J
+	echo `date` `date "+%s"` $runtime s $pw  W $en Wh $j J
 	sleep $delay
 done	
