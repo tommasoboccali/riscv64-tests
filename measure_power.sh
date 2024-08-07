@@ -14,6 +14,7 @@ comment=$2
 starttime=`date +%s`
 startprecise=`perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)'`
 echo COMMENT $comment START
+np=`nproc`
 
 while [ True ]
 do
@@ -24,9 +25,9 @@ do
         curprecise=`perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)'`
         runtimeprecise=$((curprecise-startprecise))
         runtime=$((curtime-starttime))
-        cpuusage=`printf "$prevcpu\n$newcpu"|awk '/^cpu /{u=$2-u;s=$4-s;i=$5-i;w=$6-w}END{print int(0.5+100*(u+s+w)/(u+s+i+w))}'`
+        cpuusage=`printf "$prevcpu\n$newcpu"|awk '/^cpu /{u=$2-u;s=$4-s;i=$5-i;w=$6-w}END{print (0.0+100*(u+s+w)/(u+s+i+w))}'`
         j=$(awk "BEGIN {print $en*3600; exit}"|sed "s#,#.#g")
-        totcpu=$((`nproc`*$cpuusage))
+        totcpu=$(awk "BEGIN {print $np*$cpuusage; exit}"|sed "s#,#.#g")
         echo `date` `date "+%s"` $runtimeprecise ms $pw  W $en Wh $j J $totcpu cpu% `nproc` hostThreads
         prevcpu=`head -n1 /proc/stat`
 	sleep $delay
