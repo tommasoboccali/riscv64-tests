@@ -11,14 +11,16 @@ wget -qO- "http://${measure_host}/rpc/Switch.ResetCounters?id=0" >& /dev/null
 
 delay=$1
 comment=$2
-
+starttime=`date +%s`
 echo COMMENT $comment START
 
 while [ True ]
 do
         pw=$(eval $command)
         en=$(eval $command2)
+        curtime=`date +%s`
+        runtime=$((curtime-starttime))
         j=$(awk "BEGIN {print $en*3600; exit}"|sed "s#,#.#g")
-	echo `date` `date "+%s"` $pw  W $en Wh $j J
+	echo `date` `date "+%s"` $runtime $pw  W $en Wh $j J
 	sleep $delay
 done	
