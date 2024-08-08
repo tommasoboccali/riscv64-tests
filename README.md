@@ -10,7 +10,7 @@ G4: all executed with 1 2 4 8 16 32 64 threads
   
   G4-AnaEx01.sh: the extended  /analysis 01 example
 
-  G4-NullTest.sh: just sleeps for 100 sec to get baseline (runs only at 1 thread)
+  G4-NullTest.sh: just sleeps for 1000 sec to get baseline (runs only at 1 thread)
 
 
   use a command like "source run_all.sh >& LOG_TOTAL.log &" to execute all
