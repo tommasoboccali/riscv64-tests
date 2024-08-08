@@ -9,7 +9,7 @@ echo Starting at `date`
 totmpid=$!
 
 
-for th in 'single' 'whole'
+for th in 'single' 'wholenode'
 do
 	echo executing db12 with parameter ${th}  at `date`  `date '+%s'`
 	./measure_power.sh 1 "db12_${th}" > measure_db12_${th}.csv &
