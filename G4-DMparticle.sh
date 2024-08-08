@@ -26,6 +26,6 @@ do
 	time ${exe} macro.run  >& ${prefix}_${th}.log
 	kill $mpid	
 done
-kill$totmpid
+kill $totmpid
 
 
