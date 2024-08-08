@@ -11,6 +11,10 @@ config=parfullcms.mac
 
 echo Starting at `date`
 
+./measure_power.sh 5 "ParFullCMS_${th}" > measure_ParFullCMS_ALL.csv &
+totmpid=$!
+
+
 for th in 1 2 4 8 16  32 64
 do
 	export G4FORCENUMBEROFTHREADS=${th}
@@ -23,4 +27,6 @@ do
 	time ${exe} macro.run >& ${prefix}_${th}.log
 	kill $mpid
 done
+
+kill $totmpid
 

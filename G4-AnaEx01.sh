@@ -11,6 +11,9 @@ config=run_ana01.mac
 
 echo Starting at `date`
 
+./measure_power.sh 5 "AnaEx01_ALL" > measure_AnaEx01_ALL.csv &
+totmpid=$!
+
 for th in 1 2 4 8 16 32 64
 do
 	export G4FORCENUMBEROFTHREADS=${th}
@@ -24,4 +27,5 @@ do
 	kill $mpid
 
 done
+kill $totmpid
 

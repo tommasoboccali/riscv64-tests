@@ -18,7 +18,6 @@ np=`nproc`
 #
 echo DATE,RUNTIME_ms,POWER_W,E_Wh,E_J,CPU_USAGE,N_THREADS
 
-#
 while [ True ]
 do
         newcpu=`head -n1 /proc/stat`
