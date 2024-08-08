@@ -5,14 +5,14 @@ import plotly.express as px
 
 
 
-df0 = pd.read_csv('measure_NullTest_1.csv')
-df1 = pd.read_csv('measure_ParFullCMS_1.csv')
-df2 = pd.read_csv('measure_ParFullCMS_2.csv')
-df4 = pd.read_csv('measure_ParFullCMS_4.csv')
-df8 = pd.read_csv('measure_ParFullCMS_8.csv')
-df16 = pd.read_csv('measure_ParFullCMS_16.csv')
-df32= pd.read_csv('measure_ParFullCMS_32.csv')
-df64= pd.read_csv('measure_ParFullCMS_64.csv')
+df0 = pd.read_csv('measure_NullTest_1.csv_example')
+df1 = pd.read_csv('measure_ParFullCMS_1.csv_example')
+df2 = pd.read_csv('measure_ParFullCMS_2.csv_example')
+df4 = pd.read_csv('measure_ParFullCMS_4.csv_example')
+df8 = pd.read_csv('measure_ParFullCMS_8.csv_example')
+df16 = pd.read_csv('measure_ParFullCMS_16.csv_example')
+df32= pd.read_csv('measure_ParFullCMS_32.csv_example')
+df64= pd.read_csv('measure_ParFullCMS_64.csv_example')
 
 df0.head()
 fig = px.line(df0, x = 'RUNTIME_ms', y = 'POWER_W', title='Power Profile', labels={'RUNTIME_ms':'Runtime (ms)', 'POWER_W':'Power (W)'})
