@@ -1,0 +1,5 @@
+cp: cannot stat '../../wholenode': No such file or directory
+
+real	1m36.927s
+user	95m33.199s
+sys	0m1.641s

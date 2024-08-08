@@ -1,0 +1,172 @@
+Starting at Thu Aug 8 04:23:53 PM CEST 2024
+executing NullTest (sleep) ParFullCMS at 1 threads and 1000 events at Thu Aug 8 04:23:53 PM CEST 2024 1723127033
+Measuring power with PID 951046
+
+real	16m40.005s
+user	0m0.001s
+sys	0m0.004s
+Starting at Thu Aug 8 04:40:33 PM CEST 2024
+executing db12 with parameter single at Thu Aug 8 04:40:33 PM CEST 2024 1723128033
+Measuring power with PID 971620
+Launching 64 copies of db12 with conf single
+
+real	1m34.556s
+user	91m48.682s
+sys	0m13.275s
+executing db12 with parameter wholenode at Thu Aug 8 04:42:07 PM CEST 2024 1723128127
+Measuring power with PID 973855
+Launching 1 copies of db12 with conf wholenode
+
+real	1m36.967s
+user	95m33.225s
+sys	0m1.658s
+Starting at Thu Aug 8 04:43:44 PM CEST 2024
+executing Ana01 at 1 threads and 20000 events at Thu Aug 8 04:43:44 PM CEST 2024 1723128224
+Measuring power with PID 975902
+Launching 64 copies of AnaEx01 at 1 threads
+
+real	9m22.258s
+user	523m26.348s
+sys	1m34.511s
+executing Ana01 at 2 threads and 40000 events at Thu Aug 8 04:53:07 PM CEST 2024 1723128787
+Measuring power with PID 986252
+Launching 32 copies of AnaEx01 at 2 threads
+
+real	8m12.988s
+user	467m32.634s
+sys	0m37.163s
+executing Ana01 at 4 threads and 80000 events at Thu Aug 8 05:01:20 PM CEST 2024 1723129280
+Measuring power with PID 995285
+Launching 16 copies of AnaEx01 at 4 threads
+
+real	7m28.766s
+user	443m26.602s
+sys	0m24.766s
+executing Ana01 at 8 threads and 160000 events at Thu Aug 8 05:08:49 PM CEST 2024 1723129729
+Measuring power with PID 1003336
+Launching 8 copies of AnaEx01 at 8 threads
+
+real	7m18.383s
+user	430m29.553s
+sys	0m24.546s
+executing Ana01 at 16 threads and 320000 events at Thu Aug 8 05:16:07 PM CEST 2024 1723130167
+Measuring power with PID 1011313
+Launching 4 copies of AnaEx01 at 16 threads
+
+real	6m54.015s
+user	411m52.408s
+sys	0m20.332s
+executing Ana01 at 32 threads and 640000 events at Thu Aug 8 05:23:01 PM CEST 2024 1723130581
+Measuring power with PID 1018947
+Launching 2 copies of AnaEx01 at 32 threads
+
+real	7m15.589s
+user	423m5.822s
+sys	0m22.278s
+executing Ana01 at 64 threads and 1280000 events at Thu Aug 8 05:30:17 PM CEST 2024 1723131017
+Measuring power with PID 1027398
+Launching 1 copies of AnaEx01 at 64 threads
+
+real	6m56.551s
+user	410m35.796s
+sys	0m18.139s
+Starting at Thu Aug 8 05:37:13 PM CEST 2024
+executing DMPARTICLE at 1 threads and 25000 events at Thu Aug 8 05:37:13 PM CEST 2024 1723131433
+Measuring power with PID 1035687
+Launching 64 copies of DMParticle at 1 threads
+
+real	15m23.737s
+user	915m11.292s
+sys	3m7.847s
+executing DMPARTICLE at 2 threads and 50000 events at Thu Aug 8 05:52:37 PM CEST 2024 1723132357
+Measuring power with PID 1052223
+Launching 32 copies of DMParticle at 2 threads
+
+real	9m58.246s
+user	593m26.409s
+sys	2m11.092s
+executing DMPARTICLE at 4 threads and 100000 events at Thu Aug 8 06:02:35 PM CEST 2024 1723132955
+Measuring power with PID 1063672
+Launching 16 copies of DMParticle at 4 threads
+
+real	8m35.469s
+user	501m9.200s
+sys	1m46.276s
+executing DMPARTICLE at 8 threads and 200000 events at Thu Aug 8 06:11:11 PM CEST 2024 1723133471
+Measuring power with PID 1073988
+Launching 8 copies of DMParticle at 8 threads
+
+real	7m51.745s
+user	474m15.498s
+sys	1m40.301s
+executing DMPARTICLE at 16 threads and 400000 events at Thu Aug 8 06:19:03 PM CEST 2024 1723133943
+Measuring power with PID 1083535
+Launching 4 copies of DMParticle at 16 threads
+
+real	7m23.522s
+user	441m18.123s
+sys	1m46.575s
+executing DMPARTICLE at 32 threads and 800000 events at Thu Aug 8 06:26:26 PM CEST 2024 1723134386
+Measuring power with PID 1092832
+Launching 2 copies of DMParticle at 32 threads
+
+real	7m20.621s
+user	441m51.431s
+sys	2m5.748s
+executing DMPARTICLE at 64 threads and 1600000 events at Thu Aug 8 06:33:47 PM CEST 2024 1723134827
+Measuring power with PID 1102283
+Launching 1 copies of DMParticle at 64 threads
+
+real	7m14.917s
+user	422m18.750s
+sys	3m5.078s
+Starting at Thu Aug 8 06:41:02 PM CEST 2024
+executing ParFullCMS at 1 threads and 100 events at Thu Aug 8 06:41:02 PM CEST 2024 1723135262
+Measuring power with PID 1111960
+Launching 64 copies of ParFullCMS at 1 threads
+
+real	14m53.686s
+user	878m17.101s
+sys	5m59.062s
+executing ParFullCMS at 2 threads and 200 events at Thu Aug 8 06:55:56 PM CEST 2024 1723136156
+Measuring power with PID 1127256
+Launching 32 copies of ParFullCMS at 2 threads
+
+real	13m5.646s
+user	729m2.835s
+sys	3m25.732s
+executing ParFullCMS at 4 threads and 400 events at Thu Aug 8 07:09:01 PM CEST 2024 1723136941
+Measuring power with PID 1141231
+Launching 16 copies of ParFullCMS at 4 threads
+
+real	12m14.408s
+user	668m38.070s
+sys	1m42.168s
+executing ParFullCMS at 8 threads and 800 events at Thu Aug 8 07:21:16 PM CEST 2024 1723137676
+Measuring power with PID 1154285
+Launching 8 copies of ParFullCMS at 8 threads
+
+real	11m40.171s
+user	635m27.520s
+sys	1m11.552s
+executing ParFullCMS at 16 threads and 1600 events at Thu Aug 8 07:32:56 PM CEST 2024 1723138376
+Measuring power with PID 1166585
+Launching 4 copies of ParFullCMS at 16 threads
+
+real	11m35.536s
+user	608m31.670s
+sys	1m2.271s
+executing ParFullCMS at 32 threads and 3200 events at Thu Aug 8 07:44:31 PM CEST 2024 1723139071
+Measuring power with PID 1179109
+Launching 2 copies of ParFullCMS at 32 threads
+
+real	11m59.003s
+user	614m11.007s
+sys	2m19.940s
+executing ParFullCMS at 64 threads and 6400 events at Thu Aug 8 07:56:31 PM CEST 2024 1723139791
+Measuring power with PID 1192490
+Launching 1 copies of ParFullCMS at 64 threads
+
+real	12m5.634s
+user	615m37.736s
+sys	3m18.947s
