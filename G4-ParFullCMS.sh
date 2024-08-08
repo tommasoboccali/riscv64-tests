@@ -16,7 +16,7 @@ do
 	export G4FORCENUMBEROFTHREADS=${th}
 	nevents=$(($events_per_thread * $th))
 	echo executing ParFullCMS at ${th} threads and $nevents events at `date`  `date '+%s'`
-	./measure_power.sh 1 "ParFullCMS_${th}" > measure_ParFullCMS_${th}.log &
+	./measure_power.sh 1 "ParFullCMS_${th}" > measure_ParFullCMS_${th}.csv &
 	mpid=$!
 	echo Measuring power with PID $mpid
 	cat $config | sed "s#NEVENTS#$nevents#g" > macro.run 
