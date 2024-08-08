@@ -13,9 +13,12 @@ delay=$1
 comment=$2
 starttime=`date +%s`
 startprecise=`perl -MTime::HiRes -e 'printf("%.0f\n",Time::HiRes::time()*1000)'`
-echo COMMENT $comment START
 np=`nproc`
+#header
+#
+echo DATE,RUNTIME_ms,POWER_W,E_Wh,E_J,CPU_USAGE,N_THREADS
 
+#
 while [ True ]
 do
         newcpu=`head -n1 /proc/stat`
@@ -28,7 +31,7 @@ do
         cpuusage=`printf "$prevcpu\n$newcpu"|awk '/^cpu /{u=$2-u;s=$4-s;i=$5-i;w=$6-w}END{print (0.0+100*(u+s+w)/(u+s+i+w))}'`
         j=$(awk "BEGIN {print $en*3600; exit}"|sed "s#,#.#g")
         totcpu=$(awk "BEGIN {print $np*$cpuusage; exit}"|sed "s#,#.#g")
-        echo `date`,`date "+%s"`,$runtimeprecise,ms,$pw,W,$en,Wh,$j,J,$totcpu,cpu%,`nproc`,hostThreads
+        echo `date "+%s"`,$runtimeprecise,$pw,$en,$j,$totcpu,`nproc`
         prevcpu=`head -n1 /proc/stat`
 	sleep $delay
 done	

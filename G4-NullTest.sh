@@ -1,5 +1,5 @@
 exe=/usr/bin/sleep
-events_per_thread=100
+events_per_thread=1000
 prefix=G4_NullTest
 
 echo Starting at `date`
