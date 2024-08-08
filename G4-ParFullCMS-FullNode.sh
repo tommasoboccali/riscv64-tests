@@ -28,8 +28,9 @@ do
 	mpid=$!
 	echo Measuring power with PID $mpid
 	cat $config | sed "s#NEVENTS#$nevents#g" > macro.run 
-        copies=$(($nthreads / $th))
-	time ${executor) $copies  ${prefix} ${exe} macro.run >& ${prefix}_${th}.log
+	copies=$(awk "BEGIN {print ($threads / $th); exit}"|sed "s#,#.#g")
+	echo Launching $copies copies of ParFullCMS at ${th} threads
+	time ${executor} $copies  ${prefix} ${exe} macro.run cms.gdml >& ${prefix}_${th}.log
 	kill $mpid
 done
 
