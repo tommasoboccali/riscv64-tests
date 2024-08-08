@@ -11,7 +11,7 @@ config=parfullcms.mac
 
 echo Starting at `date`
 
-./measure_power.sh 5 "ParFullCMS_${th}" > measure_ParFullCMS_ALL.csv &
+./measure_power.sh 5 "ParFullCMS_ALL" > measure_ParFullCMS_ALL.csv &
 totmpid=$!
 
 
