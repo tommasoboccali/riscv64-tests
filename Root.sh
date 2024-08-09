@@ -11,7 +11,7 @@ $exe >& /dev/null
 
 echo Starting at `date`
 
-./measure_power.sh 1 "RootBenchmark" > measure_RootBenchmark.csv &
+./measure_power.sh 1 "RootMarks" > measure_RootMarks.csv &
 totmpid=$!
 
 time $exe >& ${prefix}.log

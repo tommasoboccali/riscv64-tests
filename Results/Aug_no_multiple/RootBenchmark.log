@@ -1,0 +1,773 @@
+Executing ./math/mathcore/TRandomBenchmarks .....
+2024-08-09T12:08:22+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./math/mathcore/TRandomBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 0.72, 0.60, 0.88
+-------------------------------------------------------------------
+Benchmark                         Time             CPU   Iterations
+-------------------------------------------------------------------
+BM_Rndm<TRandom1>               116 ns          115 ns      6068359
+BM_Rndm<TRandom3>              25.2 ns         25.2 ns     27766242
+BM_Rndm<TRandomMixMax>         28.6 ns         28.6 ns     22188556
+BM_Rndm<TRandomRanluxpp>       57.4 ns         57.4 ns     12167434
+Executing ./interpreter/InterpreterBenchmarks .....
+2024-08-09T12:08:26+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./interpreter/InterpreterBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 0.74, 0.60, 0.88
+
+-------------------------------------------------------------------------------------------------------
+Benchmark                                             Time             CPU   Iterations UserCounters...
+-------------------------------------------------------------------------------------------------------
+TestTutorial/Test_startup/manual_time           1327944 us         1171 us            1 RSS=170.196k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//hsimple.C...
+hsimple   : Real Time =   0.32 seconds Cpu Time =   0.31 seconds
+(TFile *) 0x252fa850
+TestTutorial/Test_hsimple/manual_time           3276804 us          957 us            1 RSS=275.148k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//tmva/TMVAGAexample.C...
+Start Test TMVAGAexample
+========================
+
+EXAMPLE
+ range: 0   15
+ range: 0   13
+ range: 0   5
+                         : fitness: -156.541    f_0: 13.4483     f_1: 12.7556     f_2: 5     
+---
+                         : fitness: -158.422    f_0: 13.9655     f_1: 12.2389     f_2: 2.5     
+---
+                         : fitness: -165.303    f_0: 13.9655     f_1: 12.9106     f_2: 5     
+---
+                         : fitness: -165.303    f_0: 13.9655     f_1: 12.9106     f_2: 5     
+---
+                         : fitness: -165.639    f_0: 13.9655     f_1: 12.7556     f_2: 2.5     
+---
+                         : fitness: -172.236    f_0: 14.4828     f_1: 12.7556     f_2: 2.5     
+---
+                         : fitness: -172.236    f_0: 14.4828     f_1: 12.7556     f_2: 2.5     
+---
+                         : fitness: -176.98    f_0: 14.4828     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -178.834    f_0: 15     f_1: 12.7556     f_2: 2.5     
+---
+                         : fitness: -178.834    f_0: 15     f_1: 12.7556     f_2: 2.5     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -183.658    f_0: 15     f_1: 12.9106     f_2: 0     
+---
+                         : fitness: -184.702    f_0: 15     f_1: 12.9802     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+                         : fitness: -184.988    f_0: 15     f_1: 12.9992     f_2: 0     
+---
+FACTOR 0 : 15
+FACTOR 1 : 12.9992
+FACTOR 2 : 0
+TestTutorial/Test_TMVAGAexample/manual_time     3519480 us          915 us            1 RSS=374.86k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//tmva/TMVAGAexample2.C...
+Start Test TMVAGAexample
+========================
+
+
+EXAMPLE
+ range: 0   15
+ range: 0   13
+ range: 0   5
+FitterBase               : <GeneticFitter> Optimisation, please be patient ... (inaccurate progress timing for GA)
+                         : Elapsed time: 0.049 sec                            
+FACTOR 0 : 15
+FACTOR 1 : 13
+FACTOR 2 : 0
+TestTutorial/Test_TMVAGAexample2/manual_time    4420336 us         1124 us            1 RSS=374.092k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//tree/hvector.C...
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+hvector   : Real Time =   1.81 seconds Cpu Time =   1.77 seconds
+TestTutorial/Test_hvector/manual_time           4344065 us          976 us            1 RSS=272.172k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//matrix/invertMatrix.C...
+--------------------------------------------------------
+Inversion results for a (6,6) matrix
+For each inversion procedure we check the maximum size  
+of the off-diagonal elements of Inv(A) * A              
+--------------------------------------------------------
+1. Use .InvertFast(&det)
+  Maximum off-diagonal = 0.000169822
+  Determinant          = 5.36729e-18
+2. Use .Invert(&det)
+  Maximum off-diagonal = 1.77868e-10
+  Determinant          = 5.3673e-18
+3. Use TDecompLU
+  Maximum off-diagonal = 3.72964e-10
+  Determinant          = 5.3673e-18
+4. Use TDecompSVD on non-square matrix
+  Maximum off-diagonal = 5.72507e-12
+  Determinant          = 1.34646e-11
+TestTutorial/Test_hinvertMatrix/manual_time     4324644 us          958 us            1 RSS=355.496k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//fit/fitLinear.C...
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      36.5406
+NDf                       =           36
+p0                        =     -7.07142   +/-   0.0233493   
+p1                        =   -0.0194368   +/-   0.0354128   
+p2                        =      2.03968   +/-   0.0136149   
+p3                        =      1.00594   +/-   0.0139068   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      46.7362
+NDf                       =           38
+p0                        =       1.0005   +/-   0.0242765   
+p1                        =     0.985942   +/-   0.0279149   
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      43.6161
+NDf                       =           38
+p0                        =     -2.04095   +/-   0.0220454   
+p1                        =      1.01171   +/-   0.00904363  
+TestTutorial/Test_fitLinear/manual_time         3163296 us          949 us            1 RSS=227.612k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf103_interprfuncs.C...
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(genpdf_Int[x]) using numeric integrator RooIntegrator1D to calculate Int(x)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(genpdf_Int[x]) using numeric integrator RooIntegrator1D to calculate Int(x)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(genpdf_over_genpdf_Int[x]) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_genpdf_over_genpdf_Int[x]_genpdfData) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(genpdf_Int[x]) using numeric integrator RooIntegrator1D to calculate Int(x)
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(genpdf_Int[x]) using numeric integrator RooIntegrator1D to calculate Int(x)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(g2_over_g2_Int[x]) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_g2_over_g2_Int[x]_g1Data) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2551.39, estimated distance to minimum: 4.39288e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                 mean2    1.0010e+02 +/-  1.98e+00
+                 sigma    3.1172e+00 +/-  7.12e-02
+
+TestTutorial/Test_roofit103/manual_time         4791311 us          984 us            1 RSS=298.3k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf105_funcbinding.C...
+RooCFunction1Binding<double,double>::erf[ function=TMath::Erf x=x ] = 0
+RooCFunction3PdfBinding<double,double,double,double>::beta[ function=(0x3f9f40b090) x=x2 y=a z=b ] = 0.934689
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(beta_Int[x2]) using numeric integrator RooIntegrator1D to calculate Int(x2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(beta_Int[x2]) using numeric integrator RooIntegrator1D to calculate Int(x2)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(beta_over_beta_Int[x2]) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_beta_over_beta_Int[x2]_betaData) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(beta_Int[x2]) using numeric integrator RooIntegrator1D to calculate Int(x2)
+[#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(beta_Int[x2]) using numeric integrator RooIntegrator1D to calculate Int(x2)
+RooTFnBinding::fa1[ TFn={fa1=sin(x)/x} obs=(x3) ] = -0.0547936
+TestTutorial/Test_roofit105/manual_time         4655634 us         1016 us            1 RSS=300.856k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf109_chi2residpull.C...
+chi^2 = 2.63198
+TestTutorial/Test_roofit109/manual_time         3851022 us          956 us            1 RSS=290.332k
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf110_normintegration.C...
+gx = 0.800737
+gx_Norm[x] = 0.106896
+gx_Int[x] = 7.49084
+[#1] INFO:Eval -- RooRealVar::setRange(x) new range named 'signal' created with bounds [-5,5]
+gx_Int[x|signal]_Norm[x] = 0.834753
+TestTutorial/Test_roofit110/manual_time         4208042 us          981 us            1 RSS=274.912k
+Warning in <TApplication::GetOptions>: macro /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf204_extrangefit.C not found
+root: unrecognized option '/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//roofit/rf204_extrangefit.C'
+Try 'root --help' for more information.
+TestTutorial/Test_roofit204/manual_time          825854 us          937 us            1 RSS=163.752k
+Executing ./tmva/tmva/CrossValidationBenchmarks .....
+2024-08-09T12:09:10+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./tmva/tmva/CrossValidationBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.12, 0.72, 0.91
+DataSetInfo              : [cv-bench] : Added class "Signal"
+                         : Add Tree  of type Signal with 1000 events
+DataSetInfo              : [cv-bench] : Added class "Background"
+                         : Add Tree  of type Background with 1000 events
+                         : Dataset[cv-bench] : Class index : 0  name : Signal
+                         : Dataset[cv-bench] : Class index : 1  name : Background
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT_fold1      : 0.811
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT_fold1      : 0.256 (0.364)       0.608 (0.646)      0.760 (0.784)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT_fold2      : 0.849
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT_fold2      : 0.184 (0.345)       0.628 (0.694)      0.782 (0.842)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT_fold3      : 0.877
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT_fold3      : 0.145 (0.413)       0.649 (0.683)      0.870 (0.866)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT_fold4      : 0.853
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT_fold4      : 0.164 (0.398)       0.611 (0.687)      0.826 (0.854)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT_fold5      : 0.844
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT_fold5      : 0.295 (0.410)       0.568 (0.754)      0.810 (0.870)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-bench      BDT            : 0.845
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-bench             BDT            : 0.225 (0.225)       0.618 (0.618)      0.806 (0.806)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+-----------------------------------------------------------------------------------
+Benchmark                                         Time             CPU   Iterations
+-----------------------------------------------------------------------------------
+BM_CrossValidation_Evaluate              10766295740 ns   10671750560 ns            1
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT_fold2      : 0.849
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT_fold2      : 0.184 (0.345)       0.628 (0.694)      0.782 (0.842)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT_fold1      : 0.811
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT_fold1      : 0.256 (0.364)       0.608 (0.646)      0.760 (0.784)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT_fold3      : 0.877
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT_fold3      : 0.145 (0.413)       0.649 (0.683)      0.870 (0.866)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT_fold4      : 0.853
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT_fold4      : 0.164 (0.398)       0.611 (0.687)      0.826 (0.854)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT_fold5      : 0.844
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT_fold5      : 0.295 (0.410)       0.568 (0.754)      0.810 (0.870)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : cv-multiproc-bench BDT            : 0.845
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : cv-multiproc-bench   BDT            : 0.225 (0.225)       0.618 (0.618)      0.806 (0.806)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+BM_CrossValidation_Evaluate_Multiprocess 7006615571 ns   1346670020 ns            1
+Executing ./math/vecops/VecOpsRVec .....
+2024-08-09T12:09:30+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./math/vecops/VecOpsRVec
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.29, 0.79, 0.93
+------------------------------------------------------------------------
+Benchmark                              Time             CPU   Iterations
+------------------------------------------------------------------------
+RVecAssign<float>/1                 6.01 ns         6.00 ns    116217602
+RVecAssign<float>/2                 32.5 ns         32.5 ns     19376410
+RVecAssign<float>/4                 31.1 ns         31.0 ns     22563161
+RVecAssign<float>/8                 32.1 ns         32.0 ns     21861582
+RVecAssign<float>/16                33.6 ns         33.5 ns     20862713
+RVecAssign<float>/32                38.1 ns         38.0 ns     18386480
+RVecAssign<float>/64                47.1 ns         47.0 ns     14875553
+RVecAdd<float>/1                    27.5 ns         27.5 ns     25504068
+RVecAdd<float>/2                    57.2 ns         57.1 ns     11993633
+RVecAdd<float>/4                    65.8 ns         65.7 ns     10551891
+RVecAdd<float>/8                    72.8 ns         72.7 ns      9591532
+RVecAdd<float>/16                    164 ns          164 ns      4279295
+RVecAdd<float>/32                    208 ns          207 ns      3609398
+RVecAdd<float>/64                    264 ns          264 ns      2769597
+RVecSquareAddSqrt<float>/1           173 ns          173 ns      4047128
+RVecSquareAddSqrt<float>/2           395 ns          394 ns      1771079
+RVecSquareAddSqrt<float>/4           730 ns          729 ns       955929
+RVecSquareAddSqrt<float>/8          1432 ns         1430 ns       490232
+RVecSquareAddSqrt<float>/16         3143 ns         3138 ns       223573
+RVecSquareAddSqrt<float>/32         5772 ns         5763 ns       121646
+RVecSquareAddSqrt<float>/64        11015 ns        10999 ns        63685
+RVecDeltaR<float>/1                  262 ns          262 ns      2667344
+RVecDeltaR<float>/2                  478 ns          477 ns      1463876
+RVecDeltaR<float>/4                  739 ns          738 ns       964283
+RVecDeltaR<float>/8                 1100 ns         1099 ns       636650
+RVecDeltaR<float>/16                2382 ns         2378 ns       293300
+RVecDeltaR<float>/32                3780 ns         3774 ns       185389
+RVecDeltaR<float>/64                6695 ns         6683 ns       107973
+RVecInvariantMass<float>/1           213 ns          212 ns      3292712
+RVecInvariantMass<float>/2           391 ns          390 ns      1800756
+RVecInvariantMass<float>/4           761 ns          760 ns       922499
+RVecInvariantMass<float>/8          1506 ns         1504 ns       465794
+RVecInvariantMass<float>/16         3038 ns         3034 ns       230026
+RVecInvariantMass<float>/32         5381 ns         5370 ns       130246
+RVecInvariantMass<float>/64         9381 ns         9364 ns        74698
+RVecInvariantMasses<float>/1         350 ns          350 ns      1999286
+RVecInvariantMasses<float>/2         903 ns          901 ns       781368
+RVecInvariantMasses<float>/4        1945 ns         1941 ns       361305
+RVecInvariantMasses<float>/8        4027 ns         4021 ns       174173
+RVecInvariantMasses<float>/16       8348 ns         8333 ns        83805
+RVecInvariantMasses<float>/32      14755 ns        14728 ns        47793
+RVecInvariantMasses<float>/64      27071 ns        27031 ns        25803
+RVecMaskingSimple<float>/1          23.2 ns         23.2 ns     30916483
+RVecMaskingSimple<float>/2          41.6 ns         41.5 ns     16814310
+RVecMaskingSimple<float>/4          96.9 ns         96.7 ns      7161181
+RVecMaskingSimple<float>/8           138 ns          138 ns      5220366
+RVecMaskingSimple<float>/16          294 ns          293 ns      2416817
+RVecMaskingSimple<float>/32          501 ns          500 ns      1407410
+RVecMaskingSimple<float>/64          667 ns          666 ns      1052999
+RVecMaskingComplex<float>/1          123 ns          123 ns      5693495
+RVecMaskingComplex<float>/2          265 ns          265 ns      2641381
+RVecMaskingComplex<float>/4          336 ns          336 ns      2082649
+RVecMaskingComplex<float>/8          454 ns          453 ns      1550611
+RVecMaskingComplex<float>/16        1106 ns         1104 ns       639310
+RVecMaskingComplex<float>/32        1518 ns         1515 ns       474631
+RVecMaskingComplex<float>/64        2054 ns         2050 ns       339396
+Executing ./tree/treeplayer/TTreeReaderBenchmarks .....
+2024-08-09T12:10:24+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./tree/treeplayer/TTreeReaderBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.29, 0.88, 0.95
+-----------------------------------------------------------------------------------
+Benchmark                                         Time             CPU   Iterations
+-----------------------------------------------------------------------------------
+BM_TTreePlayer_FixedSizeArrayTBranch        1909355 ns      1904684 ns          367
+BM_TTreePlayer_VarSizeArrayTBranch          3229918 ns      3223412 ns          214
+BM_TTreePlayer_StdVectorTBranch             3551033 ns      3543540 ns          198
+BM_TTreePlayer_FixedSizeArrayReaderArray    5316990 ns      5303704 ns          130
+BM_TTreePlayer_VarSizeArrayReaderArray      9766046 ns      9739187 ns           73
+BM_TTreePlayer_StdVectorReaderArray        18240340 ns     18200181 ns           38
+Executing ./math/vecops/VecOpsRVec .....
+2024-08-09T12:10:33+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./math/vecops/VecOpsRVec
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.17, 0.86, 0.94
+------------------------------------------------------------------------
+Benchmark                              Time             CPU   Iterations
+------------------------------------------------------------------------
+RVecAssign<float>/1                 6.02 ns         6.01 ns    116613996
+RVecAssign<float>/2                 29.4 ns         29.4 ns     21862033
+RVecAssign<float>/4                 31.1 ns         31.0 ns     22548870
+RVecAssign<float>/8                 32.1 ns         32.0 ns     21827238
+RVecAssign<float>/16                33.6 ns         33.5 ns     20874203
+RVecAssign<float>/32                38.1 ns         38.1 ns     18405708
+RVecAssign<float>/64                47.2 ns         47.1 ns     14885583
+RVecAdd<float>/1                    27.6 ns         27.6 ns     25438905
+RVecAdd<float>/2                    49.2 ns         49.1 ns     14349559
+RVecAdd<float>/4                    63.3 ns         63.2 ns     10753653
+RVecAdd<float>/8                    80.0 ns         79.9 ns      8778739
+RVecAdd<float>/16                    164 ns          164 ns      4273927
+RVecAdd<float>/32                    216 ns          216 ns      3371759
+RVecAdd<float>/64                    249 ns          249 ns      2808327
+RVecSquareAddSqrt<float>/1           183 ns          183 ns      3841103
+RVecSquareAddSqrt<float>/2           405 ns          404 ns      1728199
+RVecSquareAddSqrt<float>/4           741 ns          739 ns       950055
+RVecSquareAddSqrt<float>/8          1444 ns         1441 ns       486425
+RVecSquareAddSqrt<float>/16         3158 ns         3153 ns       222408
+RVecSquareAddSqrt<float>/32         5749 ns         5737 ns       121887
+RVecSquareAddSqrt<float>/64        10947 ns        10930 ns        64090
+RVecDeltaR<float>/1                  260 ns          260 ns      2686941
+RVecDeltaR<float>/2                  481 ns          481 ns      1458049
+RVecDeltaR<float>/4                  724 ns          723 ns       964154
+RVecDeltaR<float>/8                 1102 ns         1100 ns       633288
+RVecDeltaR<float>/16                2390 ns         2387 ns       293743
+RVecDeltaR<float>/32                3769 ns         3762 ns       186301
+RVecDeltaR<float>/64                6591 ns         6581 ns       106517
+RVecInvariantMass<float>/1           212 ns          212 ns      3289580
+RVecInvariantMass<float>/2           389 ns          388 ns      1800734
+RVecInvariantMass<float>/4           756 ns          755 ns       929161
+RVecInvariantMass<float>/8          1498 ns         1496 ns       468012
+RVecInvariantMass<float>/16         3031 ns         3027 ns       230897
+RVecInvariantMass<float>/32         5371 ns         5361 ns       130815
+RVecInvariantMass<float>/64         9306 ns         9291 ns        75326
+RVecInvariantMasses<float>/1         348 ns          347 ns      2013759
+RVecInvariantMasses<float>/2         894 ns          893 ns       785878
+RVecInvariantMasses<float>/4        1941 ns         1939 ns       361909
+RVecInvariantMasses<float>/8        4087 ns         4081 ns       171686
+RVecInvariantMasses<float>/16       8343 ns         8327 ns        84239
+RVecInvariantMasses<float>/32      14834 ns        14809 ns        47159
+RVecInvariantMasses<float>/64      26894 ns        26851 ns        26167
+RVecMaskingSimple<float>/1          22.8 ns         22.8 ns     30989371
+RVecMaskingSimple<float>/2          41.6 ns         41.6 ns     16853118
+RVecMaskingSimple<float>/4          92.7 ns         92.5 ns      7484747
+RVecMaskingSimple<float>/8           131 ns          131 ns      5273220
+RVecMaskingSimple<float>/16          293 ns          293 ns      2413394
+RVecMaskingSimple<float>/32          491 ns          490 ns      1394684
+RVecMaskingSimple<float>/64          666 ns          665 ns      1044923
+RVecMaskingComplex<float>/1          122 ns          122 ns      5747353
+RVecMaskingComplex<float>/2          271 ns          271 ns      2623461
+RVecMaskingComplex<float>/4          359 ns          358 ns      2032455
+RVecMaskingComplex<float>/8          447 ns          446 ns      1554367
+RVecMaskingComplex<float>/16        1128 ns         1126 ns       618847
+RVecMaskingComplex<float>/32        1442 ns         1439 ns       497169
+RVecMaskingComplex<float>/64        2235 ns         2231 ns       332104
+Executing ./roofit/histfactory/benchHistFactory .....
+Input file is not found - run prepareHistFactory script 
+Using etcdir /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/etc
+Using tutorials dir /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials
+HistFactory workplace will be created in:  hf001
+Creating directory structure...
+Copying skeleton configuration files...
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.33.01                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxriscv64 on Jul 26 2024, 14:31:44                  |
+  | From heads/master@v6-31-01-2749-g72717c8ada                      |
+  | With c++ (GCC) 13.1.1 20230426 (Red Hat 13.1.1-1)                |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials/histfactory/makeExample.C...
+Done!
+2024-08-09T12:11:37+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./roofit/histfactory/benchHistFactory
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.26, 0.95, 0.97
+----------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations
+----------------------------------------------------------------------------------------------
+hf001__BinnedFitOptimization_ON___BatchMode_OFF/1/0       1.01 ms         1.02 ms          692
+hf001__BinnedFitOptimization_OFF__BatchMode_OFF/0/0       2.06 ms         2.08 ms          337
+hf001__BinnedFitOptimization_ON___BatchMode_ON_/1/1      0.679 ms        0.682 ms         1021
+hf001__BinnedFitOptimization_OFF__BatchMode_ON_/0/1       2.99 ms         3.00 ms          230
+Executing ./roofit/roofit/benchRooFitUnbinned .....
+2024-08-09T12:11:44+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./roofit/roofit/benchRooFitUnbinned
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.14, 0.94, 0.97
+------------------------------------------------------------------------------------------------------
+Benchmark                                                            Time             CPU   Iterations
+------------------------------------------------------------------------------------------------------
+BDecayWithMixing_FitLegacy/100000/0/1/real_time                   6278 ms         6210 ms            1
+BDecayWithMixing_FitLegacyNumCPU2/100000/0/2/real_time            2797 ms         23.7 ms            1
+BDecayWithMixing_FitLegacyNumCPU4/100000/0/4/real_time            1557 ms         28.9 ms            1
+BDecayWithMixing_FitCPU/100000/1/1/real_time                       803 ms          800 ms            1
+BDecayGaussResolution_FitLegacy/100000/0/1/real_time              3279 ms         3270 ms            1
+BDecayGaussResolution_FitLegacyNumCPU2/100000/0/2/real_time       1689 ms         17.8 ms            1
+BDecayGaussResolution_FitLegacyNumCPU4/100000/0/4/real_time        981 ms         23.2 ms            1
+BDecayGaussResolution_FitCPU/100000/1/1/real_time                 1432 ms         1427 ms            1
+BDecayDoubleGauss_FitLegacy/100000/0/1/real_time                 13962 ms        13910 ms            1
+BDecayDoubleGauss_FitLegacyNumCPU2/100000/0/2/real_time           8273 ms         51.2 ms            1
+BDecayDoubleGauss_FitLegacyNumCPU4/100000/0/4/real_time           4206 ms         55.9 ms            1
+BDecayDoubleGauss_FitCPU/100000/1/1/real_time                    10488 ms        10435 ms            1
+Executing ./roofit/roofit/benchRooFitBackends .....
+Using nEvents = 100000
+2024-08-09T12:12:47+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./roofit/roofit/benchRooFitBackends
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.68, 1.12, 1.03
+---------------------------------------------------------------
+Benchmark                     Time             CPU   Iterations
+---------------------------------------------------------------
+Gaus_FitLegacy/2           2161 ms         2105 ms            1
+Gaus_FitCPU/3               504 ms          501 ms            1
+GausXS_FitLegacy/2          881 ms          879 ms            1
+GausXS_FitCPU/3             240 ms          239 ms            3
+AddPdf_FitLegacy/2        12470 ms        12431 ms            1
+AddPdf_FitCPU/3            1678 ms         1671 ms            1
+ProdPdf_FitLegacy/2      117414 ms       117018 ms            1
+ProdPdf_FitCPU/3          11586 ms        11537 ms            1
+FitModel_FitLegacy/2     165453 ms       164901 ms            1
+FitModel_FitCPU/3         20918 ms        20830 ms            1
+Executing ./roofit/roofit/benchCodeSquashAD .....
+2024-08-09T12:18:29+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./roofit/roofit/benchCodeSquashAD
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.32, 1.26, 1.11
+-------------------------------------------------------------------------------------
+Benchmark                                           Time             CPU   Iterations
+-------------------------------------------------------------------------------------
+NllReferenceMinimization/0/2/iterations:20       38.2 ms         37.3 ms           20
+NllBatchModeMinimization/1/2/iterations:20       20.9 ms         20.8 ms           20
+NllCodeSquash_NumDiff/2/2/iterations:20          19.0 ms         18.9 ms           20
+NllCodeSquash_AD/3/2/iterations:20               11.4 ms         11.4 ms           20
+Executing ./hist/hist/RHistBenchmarks .....
+2024-08-09T12:18:41+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./hist/hist/RHistBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.33, 1.26, 1.11
+------------------------------------------------------------------------------------------
+Benchmark                                                Time             CPU   Iterations
+------------------------------------------------------------------------------------------
+BM_RHist_Fill/3/10/5                                   855 ns          853 ns       817072
+BM_RHist_Fill/3/100/50                                 852 ns          851 ns       814853
+BM_RHist_Fill/3/1000/500                               863 ns          862 ns       780346
+BM_RHist_Fill/300/10/5                               47396 ns        47326 ns        13874
+BM_RHist_Fill/300/100/50                             46226 ns        46155 ns        15349
+BM_RHist_Fill/300/1000/500                           50330 ns        50246 ns        13821
+BM_RHist_Fill/30000/10/5                           4599375 ns      4590819 ns          151
+BM_RHist_Fill/30000/100/50                         4581371 ns      4574100 ns          151
+BM_RHist_Fill/30000/1000/500                       4642858 ns      4634010 ns          149
+BM_RHist_Fill/3000000/10/5                       456488433 ns    455508140 ns            2
+BM_RHist_Fill/3000000/100/50                     457851644 ns    457031090 ns            2
+BM_RHist_Fill/3000000/1000/500                   460634895 ns    459800240 ns            2
+BM_RHist_FillN/3/10/5                                  575 ns          574 ns      1206617
+BM_RHist_FillN/3/100/50                                546 ns          545 ns      1251259
+BM_RHist_FillN/3/1000/500                              555 ns          554 ns      1276500
+BM_RHist_FillN/300/10/5                              53860 ns        53781 ns        12270
+BM_RHist_FillN/300/100/50                            55167 ns        55069 ns        12806
+BM_RHist_FillN/300/1000/500                          55399 ns        55305 ns        13146
+BM_RHist_FillN/30000/10/5                          5436413 ns      5423559 ns          131
+BM_RHist_FillN/30000/100/50                        5471546 ns      5460166 ns          129
+BM_RHist_FillN/30000/1000/500                      5462070 ns      5451417 ns          130
+BM_RHist_FillN/3000000/10/5                      249048166 ns    248129800 ns            3
+BM_RHist_FillN/3000000/100/50                    272306603 ns    271311313 ns            3
+BM_RHist_FillN/3000000/1000/500                  271430263 ns    270530600 ns            3
+BM_RHist_ConcurrentFill/3/1/10/5                    502103 ns       246133 ns         2855
+BM_RHist_ConcurrentFill/3/1/100/50                  553262 ns       249677 ns         2878
+BM_RHist_ConcurrentFill/3/1/1000/500                599922 ns       258154 ns         2878
+BM_RHist_ConcurrentFill/3/8/10/5                   6402472 ns      5463001 ns          131
+BM_RHist_ConcurrentFill/3/8/100/50                 6705516 ns      5560808 ns          127
+BM_RHist_ConcurrentFill/3/8/1000/500               6815262 ns      5878008 ns          124
+BM_RHist_ConcurrentFill/3/64/10/5                 78645534 ns     70306086 ns           10
+BM_RHist_ConcurrentFill/3/64/100/50               78931735 ns     70236180 ns           10
+BM_RHist_ConcurrentFill/3/64/1000/500             79880429 ns     70678352 ns           10
+BM_RHist_ConcurrentFill/3000/1/10/5                1001334 ns       253498 ns         2673
+BM_RHist_ConcurrentFill/3000/1/100/50              1003778 ns       249159 ns         2709
+BM_RHist_ConcurrentFill/3000/1/1000/500            1096140 ns       249711 ns         2820
+BM_RHist_ConcurrentFill/3000/8/10/5                8570634 ns      5616212 ns          125
+BM_RHist_ConcurrentFill/3000/8/100/50              8541267 ns      5686963 ns          123
+BM_RHist_ConcurrentFill/3000/8/1000/500            9278594 ns      5748457 ns          121
+BM_RHist_ConcurrentFill/3000/64/10/5              95404777 ns     69024827 ns            9
+BM_RHist_ConcurrentFill/3000/64/100/50            95530721 ns     69586912 ns           10
+BM_RHist_ConcurrentFill/3000/64/1000/500          99334812 ns     71695292 ns           10
+BM_RHist_ConcurrentFill/3000000/1/10/5           313935723 ns       455454 ns           10
+BM_RHist_ConcurrentFill/3000000/1/100/50         312306323 ns       462862 ns           10
+BM_RHist_ConcurrentFill/3000000/1/1000/500       313901291 ns       429766 ns           10
+BM_RHist_ConcurrentFill/3000000/8/10/5          2986381267 ns     16739760 ns            1
+BM_RHist_ConcurrentFill/3000000/8/100/50        2977383685 ns      5431120 ns            1
+BM_RHist_ConcurrentFill/3000000/8/1000/500      2994284208 ns      6435580 ns            1
+BM_RHist_ConcurrentFill/3000000/64/10/5         24181433387 ns     72430060 ns            1
+BM_RHist_ConcurrentFill/3000000/64/100/50       24299654947 ns     71864580 ns            1
+BM_RHist_ConcurrentFill/3000000/64/1000/500     24303402248 ns     72315700 ns            1
+BM_RHist_ConcurrentFill/-1294967296/1/10/5          708003 ns       269956 ns         2675
+BM_RHist_ConcurrentFill/-1294967296/1/100/50        701515 ns       265603 ns         2661
+BM_RHist_ConcurrentFill/-1294967296/1/1000/500      717900 ns       273244 ns         2477
+BM_RHist_ConcurrentFill/-1294967296/8/10/5         7612000 ns      5952118 ns          118
+BM_RHist_ConcurrentFill/-1294967296/8/100/50       7545459 ns      5952924 ns          118
+BM_RHist_ConcurrentFill/-1294967296/8/1000/500     7627659 ns      6026722 ns          117
+BM_RHist_ConcurrentFill/-1294967296/64/10/5       84689184 ns     74919291 ns            9
+BM_RHist_ConcurrentFill/-1294967296/64/100/50     82559533 ns     72932000 ns            9
+BM_RHist_ConcurrentFill/-1294967296/64/1000/500   82479779 ns     73405772 ns           10
+Executing ./io/io/TFile_RDFSnapshot .....
+2024-08-09T12:21:22+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./io/io/TFile_RDFSnapshot
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.66, 1.43, 1.20
+--------------------------------------------------------------------
+Benchmark                          Time             CPU   Iterations
+--------------------------------------------------------------------
+BM_TFile_RDFSnapshot_ZLIB     848882 us       794257 us            1
+BM_TFile_RDFSnapshot_LZ4      129037 us       125704 us            5
+BM_TFile_RDFSnapshot_LZMA     424322 us       419474 us            2
+BM_TFile_RDFSnapshot_ZSTD     195385 us       191743 us            4
+Executing ./tree/tree/TTreeBenchmarks .....
+2024-08-09T12:21:28+02:00
+Running /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/rootbench/root//./tree/tree/TTreeBenchmarks
+Run on (64 X 0 MHz CPU s)
+Load Average: 1.61, 1.42, 1.20
+-------------------------------------------------------------------------------
+Benchmark                                     Time             CPU   Iterations
+-------------------------------------------------------------------------------
+BM_TTree_GetEntryReadOneOfOne           1199975 ns      1197905 ns          564
+BM_TTree_GetEntryReadNoneOfTwo           499717 ns       499047 ns         1410
+BM_TTree_GetEntryReadOneOfTwo           1505762 ns      1501576 ns          458
+BM_TTree_GetEntryReadTwoOfTwo           2610854 ns      2605002 ns          284
+BM_TTree_BranchGetEntryReadOneOfOne      691463 ns       689999 ns         1013
+BM_TTree_BranchGetEntryReadOneOfTwo      656631 ns       654897 ns         1051
+BM_TTreeSum_SumScalarTBranchGetEntry    8068819 ns      8051152 ns           80
+BM_TTreeSum_SumScalarTTreeGetEntry     34214977 ns     34151350 ns           21
+BM_TTreeSum_SumScalarTTreeReader       27020852 ns     26966256 ns           28
+BM_TTreeSum_SumVectorTBranchGetEntry   45191464 ns     45087391 ns           15
+BM_TTreeSum_SumVectorTTreeReader      222808288 ns    222254167 ns            3

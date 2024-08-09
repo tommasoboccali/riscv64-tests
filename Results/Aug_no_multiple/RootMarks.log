@@ -1,0 +1,145 @@
+   ------------------------------------------------------------------
+  | Welcome to ROOT 6.33.01                        https://root.cern |
+  | (c) 1995-2024, The ROOT Team; conception: R. Brun, F. Rademakers |
+  | Built for linuxriscv64 on Jul 26 2024, 14:31:44                  |
+  | From heads/master@v6-31-01-2749-g72717c8ada                      |
+  | With c++ (GCC) 13.1.1 20230426 (Red Hat 13.1.1-1)                |
+  | Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
+   ------------------------------------------------------------------
+
+
+Processing /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials/legacy/benchmarks.C...
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphics/framework.C
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//hsimple.C
+hsimple   : Real Time =   0.32 seconds Cpu Time =   0.31 seconds
+(TFile *) 0x225a39e0
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//hist/hsum.C
+hsum      : Real Time =   0.11 seconds Cpu Time =   0.11 seconds
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphics/formula1.C
+
+Object statistics
+class                         cnt    on heap     size    total size    heap size
+================================================================================
+TList                         131        130      104         13624        13520
+TObjectTable                    1          1       32            32           32
+TROOT                           1          0      728           728            0
+TPluginManager                  1          1       40            40           40
+THashTable                      2          2       72           144          144
+TClassTable                     1          1       16            16           16
+THashList                       1          1      112           112          112
+TEnv                            1          1       56            56           56
+TEnvRec                       143        143       96         13728        13728
+TNamed                          1          1       64            64           64
+TUnixSystem                     1          1      672           672          672
+TOrdCollection                  4          4       72           288          288
+--------------------------------------------------------------------------------
+Total:                        288        286     2064         29504        28672
+================================================================================
+
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//hist/fillrandom.C
+fillrandom: Real Time =   0.47 seconds Cpu Time =   0.46 seconds
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//fit/fit1.C
+TFile**		fillrandom.root	
+ TFile*		fillrandom.root	
+  KEY: TFormula	form1;1	abs(sin(x)/x)
+  KEY: TF1	sqroot;1	x*gaus(0) + [3]*form1
+  KEY: TH1F	h1f;1	Test random numbers
+Formula based function:     sqroot 
+               sqroot : x*gaus(0) + [3]*form1 Ndim= 1, Npar= 4, Number= 0 
+ Formula expression: 
+	x*[p0]*exp(-0.5*((x-[p1])/[p2])*((x-[p1])/[p2]))+[p3]*(abs(sin(x)/x)) 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      249.805
+NDf                       =          192
+Edm                       =  1.87421e-09
+NCalls                    =          152
+p0                        =      33.3496   +/-   0.535616    
+p1                        =      3.97653   +/-   0.0174903   
+p2                        =     0.979628   +/-   0.0124863   
+p3                        =      63.3402   +/-   1.32941     
+fit1      : Real Time =   0.53 seconds Cpu Time =   0.50 seconds
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//hist/h1ReadAndDraw.C
+TFile**		/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials/hsimple.root	Demo ROOT file with histograms
+ TFile*		/cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials/hsimple.root	Demo ROOT file with histograms
+  KEY: TH1F	hpx;1	This is the px distribution
+  KEY: TH2F	hpxpy;1	py vs px
+  KEY: TProfile	hprof;1	Profile of pz versus px
+  KEY: TNtuple	ntuple;1	Demo ntuple
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphs/graph.C
+ i 0 0.000000 1.986693 
+ i 1 0.100000 2.955202 
+ i 2 0.200000 3.894183 
+ i 3 0.300000 4.794255 
+ i 4 0.400000 5.646425 
+ i 5 0.500000 6.442177 
+ i 6 0.600000 7.173561 
+ i 7 0.700000 7.833269 
+ i 8 0.800000 8.414710 
+ i 9 0.900000 8.912074 
+ i 10 1.000000 9.320391 
+ i 11 1.100000 9.635582 
+ i 12 1.200000 9.854497 
+ i 13 1.300000 9.974950 
+ i 14 1.400000 9.995736 
+ i 15 1.500000 9.916648 
+ i 16 1.600000 9.738476 
+ i 17 1.700000 9.463001 
+ i 18 1.800000 9.092974 
+ i 19 1.900000 8.632094 
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphs/gerrors.C
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphics/tornado.C
+tornado   : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphs/surfaces.C
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//graphs/zdemo.C
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//geom/geometry.C
+na49      : Real Time =   0.04 seconds Cpu Time =   0.04 seconds
+geometry  : Real Time =   0.15 seconds Cpu Time =   0.15 seconds
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//geom/na49view.C
+na49view  : Real Time =   0.01 seconds Cpu Time =   0.01 seconds
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//tree/ntuple1.C
+****************************************
+Minimizer is Linear / Migrad
+Chi2                      =      16.5378
+NDf                       =           68
+p0                        =      1.04821   +/-   0.226552    
+p1                        =    0.0133784   +/-   0.0420448   
+p2                        =     0.956034   +/-   0.0245116   
+ntuple1   : Real Time =   0.85 seconds Cpu Time =   0.84 seconds
+Processing benchmark: /cvmfs/datacloud.infn.it/repo/riscv64-pioneer/root/tutorials//legacy/rootmarks.C
+---------------ROOT 6.33.01 benchmarks summary--------------------
+hsimple   : Real Time =   0.32 seconds Cpu Time =   0.31 seconds
+hsum      : Real Time =   0.11 seconds Cpu Time =   0.11 seconds
+fillrandom: Real Time =   0.47 seconds Cpu Time =   0.46 seconds
+fit1      : Real Time =   0.53 seconds Cpu Time =   0.50 seconds
+tornado   : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+na49      : Real Time =   0.04 seconds Cpu Time =   0.04 seconds
+geometry  : Real Time =   0.15 seconds Cpu Time =   0.15 seconds
+na49view  : Real Time =   0.01 seconds Cpu Time =   0.01 seconds
+ntuple1   : Real Time =   0.85 seconds Cpu Time =   0.84 seconds
+TOTAL     : Real Time =   2.48 seconds Cpu Time =   2.42 seconds
+
+---------------ROOT 6.33.01 benchmarks summary (in ROOTMARKS)-----
+   For comparison, a Pentium IV 2.4Ghz is benchmarked at 600 ROOTMARKS
+hsimple     =  540.12 RealMARKS,  =  541.94 CpuMARKS
+hsum        =  871.91 RealMARKS,  =  818.18 CpuMARKS
+fillrandom  =   25.67 RealMARKS,  =   13.04 CpuMARKS
+fit1        =   45.05 RealMARKS,  =   36.00 CpuMARKS
+tornado     = 12582.91 RealMARKS,  =     inf CpuMARKS
+na49        = 23795.93 RealMARKS,  = 20850.00 CpuMARKS
+geometry    =  766.14 RealMARKS,  =  720.00 CpuMARKS
+na49view    = 1304.65 RealMARKS,  = 1800.00 CpuMARKS
+ntuple1     =  204.65 RealMARKS,  =  192.86 CpuMARKS
+
+****************************************************
+* Your machine is estimated at  818.73 ROOTMARKS   *
+****************************************************
