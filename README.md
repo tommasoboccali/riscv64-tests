@@ -12,5 +12,9 @@ G4: all executed with 1 2 4 8 16 32 64 threads
 
   G4-NullTest.sh: just sleeps for 1000 sec to get baseline (runs only at 1 thread)
 
+  Root.sh: runs rootmarks
+
+  RootBench.sh: runs rootbenchmarks
+
 
   use a command like "source run_all.sh >& LOG_TOTAL.log &" to execute all
